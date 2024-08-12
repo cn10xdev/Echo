@@ -1,3 +1,4 @@
+import AddUser from "./addUser/addUser";
 import "./chatList.css"
 import { useState } from "react";
 
@@ -70,6 +71,7 @@ const ChatList = () => {
                     <p>Hey there! I'm using WhatsApp.</p>
                 </div>
             </div>
+            {addMode && <AddUser/>}
         </div>
     )
 }
