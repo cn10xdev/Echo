@@ -58,7 +58,7 @@
   
           &:disabled {
             cursor: not-allowed;
-            background-color: #1f8ff19c;
+            background-color: #a196aa;
           }
         }
       }
