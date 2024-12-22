@@ -9,11 +9,11 @@ import { getStorage } from "firebase/storage";
 // Your web app's Firebase configuration
 const firebaseConfig = {
   apiKey: import.meta.env.VITE_API_KEY,
-  authDomain: "echo-fcefe.firebaseapp.com",
-  projectId: "echo-fcefe",
-  storageBucket: "echo-fcefe.appspot.com",
-  messagingSenderId: "85368130652",
-  appId: "1:85368130652:web:0aa07160083340fa9d6a99"
+  authDomain: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: ""
 };
 
 // Initialize Firebase
